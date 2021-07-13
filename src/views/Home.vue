@@ -1,14 +1,15 @@
 <template>
   <div class="home">
-    <h1>Funny Mud</h1>
+    <vue-clock />
   </div>
 </template>
 
 <script>
+import vueClock from '@/components/Clock'
 export default {
   name: 'Home',
   components: {
-
+    vueClock
   }
 }
 </script>
