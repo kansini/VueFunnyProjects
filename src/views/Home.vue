@@ -1,17 +1,17 @@
 <template>
   <div class="home">
-    <vue-calculator />
+    <v-clock />
   </div>
 </template>
 
 <script>
-import vueClock from '@/components/Clock'
-import vueCalculator from '@/components/Calculator'
+import vClock from '@/components/Clock'
+import vCalculator from '@/components/Calculator'
 export default {
   name: 'Home',
   components: {
-    vueClock,
-    vueCalculator
+    vClock,
+    vCalculator
   }
 }
 </script>
