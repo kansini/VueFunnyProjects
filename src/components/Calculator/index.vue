@@ -20,7 +20,7 @@ export default {
 .calculator-container {
   width: 300px;
   height: 506px;
-  padding: 12px 8px;
+  padding: 12px;
   border-radius: 8px;
   background: #D7D8DB;
   box-shadow: 0 0 23px 0 rgba(0, 0, 0, 0.09), 1px 2px 3px 0 rgba(0, 0, 0, 0.05), 1px 0 8px 0 rgba(0, 0, 0, 0.39), 1px 0 1px 0 rgba(0, 0, 0, 0.40), inset -2px 0 5px 0 rgba(0, 0, 0, 0.36), inset -5px 0 10px 0 rgba(209, 212, 214, 0.27), inset 0 1px 3px 0 rgba(0, 0, 0, 0.37), inset -7px 0 12px 0 rgba(161, 164, 169, 0.21), inset 0 5px 5px 0 rgba(255, 255, 255, 0.15), inset 6px 0 2px 0 rgba(255, 255, 255, 0.52);
@@ -59,7 +59,7 @@ export default {
 
       .division {
         width: 2px;
-        height: calc(100% - 4px);
+        height: calc(100% - 8px);
         opacity: .5;
         background: #767068;
         z-index: 999;
